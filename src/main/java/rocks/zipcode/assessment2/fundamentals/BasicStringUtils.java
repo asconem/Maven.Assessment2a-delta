@@ -44,14 +44,9 @@ public class BasicStringUtils {
         char[] charArray = charactersToRemove.toCharArray();
         for (int i = 0; i < string.length(); i++) {
             for (int j = 0; j < charArray.length; j++) {
-                if (string.charAt(i) == charArray[j]) {
-                    check = false;
+                if (string.charAt(i) != charArray[j]) {
+                    str += string.charAt(i);
                 }
-            }
-            if (check == true) {
-                str += string.charAt(i);
-            } else {
-                check = true;
             }
         }
         return str;
