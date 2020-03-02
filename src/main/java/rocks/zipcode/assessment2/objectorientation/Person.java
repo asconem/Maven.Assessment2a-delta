@@ -16,7 +16,7 @@ public class Person {
     public Person(Long id, String name, Address address) {
         this.id = id;
         this.name = name;
-        this.address = new Address();
+        this.address = address;
     }
 
     public Person() {
@@ -49,8 +49,8 @@ public class Person {
         this.address = address;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        return (Boolean)null;
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        return (Boolean)null;
+//    }
 }

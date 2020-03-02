@@ -77,9 +77,4 @@ public class Address {
 //    public boolean equals(Object o) {
 //        return (Boolean)null;
 //    }
-
-    @Override
-    public String toString() {
-    return "Address{addressLine1='', addressLine2='', city='', state='', zipcode=''}";
-    }
 }

@@ -13,6 +13,7 @@ public class Animal {
     private Address address;
 
     public Animal() {
+
     }
 
     /**
@@ -20,6 +21,7 @@ public class Animal {
      * @param owner - owner of animal
      */
     public Animal(Long id, Person owner) {
+        this.id = id;
         this.setOwner(new Person());
         this.address = new Address();
     }
