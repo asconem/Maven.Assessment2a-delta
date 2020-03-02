@@ -54,7 +54,7 @@ public class StringUtils {
      * @return - true if string only contains numeric characters
      */
     public static Boolean isNumericString(String string) {
-       for (char c: string.toCharArray()) {
+       for (char c : string.toCharArray()) {
            if(!Character.isDigit(c)) {
                return false;
            }

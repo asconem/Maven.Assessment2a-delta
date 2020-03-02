@@ -73,8 +73,13 @@ public class Address {
         this.zipcode = zipcode;
     }
 
+//    @Override
+//    public boolean equals(Object o) {
+//        return (Boolean)null;
+//    }
+
     @Override
-    public boolean equals(Object o) {
-        return (Boolean)null;
+    public String toString() {
+    return "Address{addressLine1='', addressLine2='', city='', state='', zipcode=''}";
     }
 }
